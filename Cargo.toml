@@ -1,0 +1,20 @@
+[package]
+name = "queue_cumber"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenv = "0.15.0"
+env_logger = "0.11.7"
+log = "0.4.26"
+
+[dependencies.windows]
+version = "0.60.0"
+features = [
+    "Win32_System_Threading",
+    "Win32_System_Memory",
+    "Win32_System_Diagnostics_Debug",
+    "Win32_System_Diagnostics_ToolHelp",
+    "Win32_System_LibraryLoader",
+    "Win32_Security"
+]
