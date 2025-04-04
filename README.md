@@ -1,4 +1,4 @@
-# QueueCumber
+# :cucumber: QueueCumber :cucumber:
 An APC Queue Injection Proof-of-Concept Written in :crab:
 
 ## Background: What is APC Queue Injection?
